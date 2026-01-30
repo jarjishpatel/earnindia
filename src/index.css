@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Slick Carousel Styles */
+.slick-dots li button:before {
+  color: #008000 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #008000 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #003366 !important;
+}
