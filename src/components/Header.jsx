@@ -78,9 +78,7 @@ const Header = () => {
                 <button className="bg-primary text-white py-3 rounded-lg font-medium hover:bg-blue-800 transition">
                   Login
                 </button>
-                <button className="bg-accent text-white py-3 rounded-lg font-medium hover:bg-green-700 transition">
-                  Signup
-                </button>
+                
               </div>
             </div>
           </motion.nav>
